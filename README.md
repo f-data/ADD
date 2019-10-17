@@ -41,8 +41,8 @@ Calculates the probability that one Wikipedia article is an academic discipline 
 
 ***Usage***
 1. Download the InferSent source code from its GitHub repository and specify the path to its models.py script in [modules/text_classifier.py](modules/text_classifier.py).
-2. Download the pretrained [InferSent model (version 2)](https://github.com/facebookresearch/InferSent) and copy it in the directory specified by the parameter MODELS_DIR.
-3. Download the pretrained [fastText word embeddings trained on Common Crawl (2 million word vectors)](https://fasttext.cc/docs/en/english-vectors.html) and copy it in the directory specified by the parameter WORD_VECTORS_DIR.
+2. Download the pretrained InferSent model (version 2) and copy it in the directory specified by the parameter MODELS_DIR.
+3. Download the pretrained fastText word embeddings trained on Common Crawl (2 million word vectors) and copy it in the directory specified by the parameter WORD_VECTORS_DIR.
 4. Make sure that Basic Filter’s output files are present in the data folder.
 5. Run the code from [modules/demo.ipynb](modules/demo.ipynb). If the option TextClassifierOptions.ALL is not used, to reproduce the results, make sure to run the other three classifiers before running with the option TextClassifierOptions.ENSAMBLE.
 

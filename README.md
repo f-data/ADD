@@ -12,10 +12,6 @@ This repository contains the code and evaluation results of the research work ti
 - InferSent
 - NetworkX
 
-## License
-For the licenses of the third-party required libraries and pretrained models, please refer to their webpages.
-
-The textual content coming from Wikipedia dumps is available under the GNU Free Documentation License (GFDL) and the Creative Commons Attribution-Share-Alike 3.0 License. For more information see the [License information about Wikimedia dump downloads](https://dumps.wikimedia.org/legal.html).
 
 ## Modules
 To run each of the Academic Disciplines Detector (ADD) modules, see [modules/demo.ipynb](modules/demo.ipynb). The modules should be run in the specified order.
@@ -66,3 +62,7 @@ The 100 detected academic disciplines with highest probability score by Wikipedi
 2. Export from 2016-06-01: [enwiki-20160601-detected-disciplines-limit-100.csv](evaluation/enwiki-20160601-detected-disciplines-limit-100.csv)
 3. Export from 2017-06-01: [enwiki-20170601-detected-disciplines-limit-100.csv](evaluation/enwiki-20170601-detected-disciplines-limit-100.csv)
 4. Export from 2018-11-20: [enwiki-20181120-detected-disciplines-limit-100.csv](evaluation/enwiki-20181120-detected-disciplines-limit-100.csv)
+
+
+## Note
+The textual content coming from Wikipedia dumps is available under the GNU Free Documentation License (GFDL) and the Creative Commons Attribution-Share-Alike 3.0 License. For more information see the [License information about Wikimedia dump downloads](https://dumps.wikimedia.org/legal.html).

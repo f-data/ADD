@@ -18,6 +18,17 @@ A. Gjorgjevikj, K. Mishev and D. Trajanov, "ADD: Academic Disciplines Detector B
 - [InferSent](https://github.com/facebookresearch/InferSent) [[1]](#1)
 
 
+## Data and Models
+***The code available in this repository uses the following pretrained word embeddings and models:***
+1. [FastText](https://fasttext.cc/docs/en/english-vectors.html) [[2]](#2) word embeddings trained on Common Crawl (2 million word vectors).
+2. [InferSent](https://github.com/facebookresearch/InferSent) model trained with fastText word embeddings (version 2).
+3. [Universal Sentence Encoder (USE) - Transformer](https://tfhub.dev/google/universal-sentence-encoder-large/3) [[3]](#3) available in TensorFlow Hub.
+
+***The Academic Disciplines Detector (ADD) custom models were trained with datasets based on:***
+1. Current revisions of all English Wikipedia articles (XML files *enwiki-YYYYMMDD-pages-articles.xml*), i.e., export from 2017-06-01 for training, and exports from 2015-06-02, 2016-06-01, 2017-06-01, 2018-11-20 for evaluation.
+2. Classification of Instructional Programs (CIP) data from 2010 (title and description) for training.
+
+
 ## Modules
 To run each of the Academic Disciplines Detector (ADD) modules, see [modules/demo.ipynb](modules/demo.ipynb). The modules should be run in the specified order.
 
@@ -71,6 +82,8 @@ The 100 detected academic disciplines with highest probability score by Wikipedi
 
 ## References
 <a id="1">[1]</a> A. Conneau, D. Kiela, H. Schwenk, L. Barrault, and A. Bordes, "Supervised learning of universal sentence representations from natural language inference data," 2017, *arXiv:1705.02364*. [Online]. Available: https://arxiv.org/abs/1705.02364
+<a id="2">[2]</a> T. Mikolov, E. Grave, P. Bojanowski, C. Puhrsch, and A. Joulin, "Advances in pre-training distributed word representations," in *Proc. Int. Conf. Lang. Resour. Eval. (LREC)*, 2018.
+<a id="3">[3]</a> D. Cer, Y. Yang, S.-Y. Kong, N. Hua, N. Limtiaco, R. S. John, N. Constant, M. Guajardo-Cespedes, S.Yuan, and C. Tar, "Universal sentence encoder," 2018, *arXiv:1803.11175*. [Online]. Available: https://arxiv.org/abs/1803.11175
 
 
 ## Note

@@ -1,16 +1,20 @@
 # ADD: Academic Disciplines Detector Based on Wikipedia
-This repository contains the code and evaluation results of the research work titled “ADD: Academic Disciplines Detector Based on Wikipedia”. The purpose of the Academic Disciplines Detector (ADD) is detection of academic disciplines defined in Wikipedia at particular moment of time in order to facilitate the timely detection of emerging or obsolete disciplines and enable studying of their evolution.
+This repository contains the code and evaluation results of the research paper “ADD: Academic Disciplines Detector Based on Wikipedia”. The purpose of the Academic Disciplines Detector (ADD) is detection of academic disciplines defined in Wikipedia at particular moment, in order to facilitate the timely detection of emerging or obsolete disciplines and enable studying of their evolution.
+
+A. Gjorgjevikj, K. Mishev and D. Trajanov, "ADD: Academic Disciplines Detector Based on Wikipedia," in *IEEE Access*, vol. 8, pp. 7005-7019, 2020.
 
 ## Requirements
 
 - Python 3
-- Gensim
-- Scikit-learn
-- Tensorflow
-- Tensorflow Hub
-- Pytorch
-- InferSent
-- NetworkX
+- [NumPy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Gensim](https://github.com/RaRe-Technologies/gensim)
+- [Scikit-learn](https://scikit-learn.org)
+- [NetworkX](https://networkx.github.io/)
+- [Tensorflow](https://www.tensorflow.org/)
+- [Tensorflow Hub](https://www.tensorflow.org/hub)
+- [Pytorch](https://pytorch.org/)
+- [InferSent](https://github.com/facebookresearch/InferSent) [[1]](#1)
 
 
 ## Modules
@@ -62,6 +66,10 @@ The 100 detected academic disciplines with highest probability score by Wikipedi
 2. Export from 2016-06-01: [enwiki-20160601-detected-disciplines-limit-100.csv](evaluation/enwiki-20160601-detected-disciplines-limit-100.csv)
 3. Export from 2017-06-01: [enwiki-20170601-detected-disciplines-limit-100.csv](evaluation/enwiki-20170601-detected-disciplines-limit-100.csv)
 4. Export from 2018-11-20: [enwiki-20181120-detected-disciplines-limit-100.csv](evaluation/enwiki-20181120-detected-disciplines-limit-100.csv)
+
+
+## References
+<a id="1">[1]</a> A. Conneau, D. Kiela, H. Schwenk, L. Barrault, and A. Bordes, "Supervised learning of universal sentence representations from natural language inference data," 2017, *arXiv:1705.02364*. [Online]. Available: https://arxiv.org/abs/1705.02364
 
 
 ## Note

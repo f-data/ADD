@@ -1,6 +1,7 @@
 # ADD: Academic Disciplines Detector Based on Wikipedia
 This repository contains the code and evaluation results of the research paper “ADD: Academic Disciplines Detector Based on Wikipedia”. The purpose of the Academic Disciplines Detector (ADD) is detection of academic disciplines defined in Wikipedia at particular moment, in order to facilitate the timely detection of emerging or obsolete disciplines and enable studying of their evolution.
 
+## Citing
 A. Gjorgjevikj, K. Mishev and D. Trajanov, "ADD: Academic Disciplines Detector Based on Wikipedia," in *IEEE Access*, vol. 8, pp. 7005-7019, 2020.
 
 ## Requirements

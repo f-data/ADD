@@ -52,7 +52,7 @@ Filters Wikipedia articles that do not follow the patterns common for academic d
 Calculates the probability that one Wikipedia article is an academic discipline based on trained classifiers over Wikipedia articles’ lead section excerpt.
 
 ***Usage***
-1. Download the InferSent source code from its GitHub repository and specify the path to its models.py script in [modules/text_classifier.py](modules/text_classifier.py).
+1. Download the InferSent source code from its GitHub repository and specify the path to its models.py script in [modules/text_classifier.py](modules/text_classifier.py). InferSent is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License (for more information please see the [InferSent GitHub repository](https://github.com/facebookresearch/InferSent)).
 2. Download the pretrained InferSent model (version 2) and copy it in the directory specified by the parameter MODELS_DIR.
 3. Download the pretrained fastText word embeddings trained on Common Crawl (2 million word vectors) and copy it in the directory specified by the parameter WORD_VECTORS_DIR.
 4. Make sure that Basic Filter’s output files are present in the data folder.

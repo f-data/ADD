@@ -3,6 +3,18 @@ This repository contains the code and evaluation results of the research paper â
 
 ## Citing
 A. Gjorgjevikj, K. Mishev and D. Trajanov, "ADD: Academic Disciplines Detector Based on Wikipedia," in *IEEE Access*, vol. 8, pp. 7005-7019, 2020.
+```
+@article{ADD,
+  author={A. {Gjorgjevikj} and K. {Mishev} and D. {Trajanov}},
+  journal={IEEE Access},
+  title={ADD: Academic Disciplines Detector Based on Wikipedia},
+  year={2020},
+  volume={8},
+  pages={7005-7019},
+  doi={10.1109/ACCESS.2019.2963674},
+  ISSN={2169-3536},
+}
+```
 
 ## Requirements
 
@@ -19,12 +31,12 @@ A. Gjorgjevikj, K. Mishev and D. Trajanov, "ADD: Academic Disciplines Detector B
 
 
 ## Data and Models
-***The code available in this repository uses the following pretrained word embeddings and models:***
+The code available in this repository uses the following pretrained word embeddings and models:
 1. [FastText](https://fasttext.cc/docs/en/english-vectors.html) [[2]](#2) word embeddings trained on Common Crawl (2 million word vectors).
 2. [InferSent](https://github.com/facebookresearch/InferSent) model trained with fastText word embeddings (version 2).
 3. [Universal Sentence Encoder (USE) - Transformer](https://tfhub.dev/google/universal-sentence-encoder-large/3) [[3]](#3) available in TensorFlow Hub.
 
-***The Academic Disciplines Detector (ADD) custom models were trained with datasets based on:***
+The Academic Disciplines Detector (ADD) custom models were trained/evaluated with datasets based on:
 1. Wikipedia export containing current revisions of all English articles (XML files *enwiki-YYYYMMDD-pages-articles.xml*), from 2017-06-01 for training, and exports from 2015-06-02, 2016-06-01, 2017-06-01, 2018-11-20 for evaluation.
 2. Classification of Instructional Programs (CIP) data from 2010 (title and description) for training.
 

@@ -69,13 +69,13 @@ The test dataset errors made by the trained text classification and node classif
 2. Node classifier: [node-classifier-test-errors.csv](evaluation/node-classifier-test-errors.csv)
 
 
+## Note
+The textual content coming from Wikipedia dumps is available under the GNU Free Documentation License (GFDL) and the Creative Commons Attribution-Share-Alike 3.0 License. For more information see the [License information about Wikimedia dump downloads](https://dumps.wikimedia.org/legal.html).
+
+
 ## References
 <a id="1">[1]</a> A. Conneau, D. Kiela, H. Schwenk, L. Barrault, and A. Bordes, "Supervised learning of universal sentence representations from natural language inference data," 2017, *arXiv:1705.02364*. [Online]. Available: https://arxiv.org/abs/1705.02364
 
 <a id="2">[2]</a> T. Mikolov, E. Grave, P. Bojanowski, C. Puhrsch, and A. Joulin, "Advances in pre-training distributed word representations," in *Proc. Int. Conf. Lang. Resour. Eval. (LREC)*, 2018.
 
 <a id="3">[3]</a> D. Cer, Y. Yang, S.-Y. Kong, N. Hua, N. Limtiaco, R. S. John, N. Constant, M. Guajardo-Cespedes, S.Yuan, and C. Tar, "Universal sentence encoder," 2018, *arXiv:1803.11175*. [Online]. Available: https://arxiv.org/abs/1803.11175
-
-
-## Note
-The textual content coming from Wikipedia dumps is available under the GNU Free Documentation License (GFDL) and the Creative Commons Attribution-Share-Alike 3.0 License. For more information see the [License information about Wikimedia dump downloads](https://dumps.wikimedia.org/legal.html).

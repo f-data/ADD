@@ -1,5 +1,5 @@
-Article title,Lead section excerpt,Label,Prediction,Prediction probability
-Dromography,"Dromography. Dromography (Gr. δρόμος, dromos ""way, street, route, corridor"" + γράφω, grapho ""I write"") -the comparative study of organisation, history, geography and logistics of local, regional and global trade routes, and other movement, transportation and communication networks. Dromography is one of the auxiliary disciplines of research on world history.",0,1,1.0
-Ethical research in social science,Ethical research in social science. Doing research in an ethical manner becomes extremely important when dealing with human subjects. Research is the systematic process of collecting and analyzing information (data) in order to increase our understanding of the phenomenon about which we are concerned or interested and communicating what we discovered to the larger scientific community.,0,1,0.67
-Historical institutionalism,"Historical institutionalism. Historical institutionalism (HI) is a new institutionalist social science method that uses institutions to find sequences of social, political, economic behavior and change across time. It is a comparative approach to the study of all aspects of human organizations and does so by relying heavily on case studies. Borrowing from Charles Tilly, historical institutionalism is a method apt for measuring ""big structures, large processes, and making huge comparisons"".",0,1,0.67
-Geometrography,"Geometrography. In mathematics, in geometry, geometrography is the study of geometrical constructions. The concepts and methods of geometrography were first expounded by Émile Lemoine (1840–1912), a French civil engineer and a mathematician, in a meeting of the French Association for the Advancement of the Sciences held at Oran in 1888.",1,0,0.33
+Wikipedia article title,Label,Prediction,Prediction probability
+Dromography,0,1,1
+Ethical research in social science,0,1,0.67
+Historical institutionalism,0,1,0.67
+Geometrography,1,0,0.33
